@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fontawesome/css/all.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container" id="signup">
+  <input type="button" value="Login/SignUp" class="btn btn-primary" data-toggle="modal" data-target="#signupp">
+</div>
+<div class="container" id="sup">
+  <div class="modal fade" id="signupp">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <label style="cursor: pointer" class="close close-btn fas fa-times text-right" data-dismiss="modal"></label>
+        <div class="modal-header">
+          <h2 class='col-12 modal-title text-center'>SIGN UP</h2>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <div class="form-group form-row">
+              <label for="name" class="col-12">Name</label>
+              <div class="col-12">
+                <input type="text" name="name" id="name" class="form-control">
+              </div>
+              <label for="mobno" class="col-12">Contact</label>
+              <div class="col-12">
+                <input type="text" required name="mobno" id="mobno" class="form-control">
+              </div>
+              <label for="email" class="col-12">Email</label>
+              <div class="col-12">
+                <input type="email" required name="email" id="email" class="form-control">
+              </div>
+              <label for="Username" class="col-12">Username</label>
+              <div class="col-12">
+                <input type="text" required name="Username" id="Username" class="form-control">
+              </div>
+              <label for="password" class="col-12">Password</label>
+              <div class="col-12">
+                <input type="password" required name="password" id="password" class="form-control">
+              </div>
+              <label for="confpass" class="col-12">Confirm Password</label>
+              <div class="col-12">
+                <input type="password" required name="confpass" id="confpass" class="form-control">
+              </div>
+              <div class="col-12 text-center"><br>
+                <input type="submit" value="Login" class="btn btn-primary">
+              </div>
+              <div class="col-12 text-center"><br>
+                <label>Already a User? <a href="login.html">Login Now</a> </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
